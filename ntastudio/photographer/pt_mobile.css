@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+@media screen and (max-width: 600px) {
+	*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Roboto Condensed;
+	color: black;
+}
+
+.navbar_ {
+	z-index: 1;
+	width: 100%;
+    background-color: yellow;
+    display: block;
+	float: left;
+	text-decoration: none;
+	position: fixed;
+	font-size: 23px;
+	padding: 0 50px;
+	color: black;
+}
+
+.navbar_ .icon_ .icon__ {
+	display: block;
+	text-decoration: none;
+	float: left;
+	margin: 22px;
+	font-family: 'Inconsolata', monospace;
+	margin-right: 45px;
+	color: black;
+}
+
+.navbar_ .menu_ a{
+  	display: block;  
+  	flex-direction: column;
+  	text-decoration: none;
+	color: black;
+	padding: 20px;
+	transition: .2s;
+  	text-align: center;
+}
+
+
+
+.navbar_ .menu_ a:hover {
+	font-size: 30px;
+  text-decoration: underline;
+}
+
+
+
+.navbar_ .menu_ #photographer__ {
+	font-size: 30px;
+  text-decoration: underline;
+}
+
+.navbar_ .menu_ {
+  	border-bottom: 2px solid black;
+  	margin: 0 -50px;
+}
+
+.navbar_ .user_ a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	transition: .2s;
+	color: black;
+  	flex-direction: column;
+  	text-align: center;
+}
+
+.navbar_ .user_ a:hover {
+	font-size: 30px;
+}
+
+#cardvisit {
+  	margin: 0;
+  	position: absolute;
+  	top: 55%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#cardvisit1 {
+  	margin: 0;
+  	position: absolute;
+  	top: 155%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#cardvisit2 {
+  	margin: 0;
+  	position: absolute;
+  	top: 255%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.allcard {
+	margin: 0;
+  	position: absolute;
+  	top: 55%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+.showmore_ {
+    color: black;
+    background-color: #ffff00;
+    border-color: #ffff00;
+    text-decoration: none;
+}
+
+a.showmore_ {
+	text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#toggle {
+  display: block;
+  font-size: 25px;
+  text-align: right;
+  margin: 22px;
+  cursor: pointer;
+}
+
+.slidedown_ {
+  display: none;
+}
+}

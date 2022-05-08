@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Roboto Condensed;
+	color: black;
+}
+
+.navbar_ {
+	z-index: 1;
+	width: 100%;
+    background-color: yellow;
+    display: block;
+	float: left;
+	text-decoration: none;
+	position: fixed;
+	font-size: 23px;
+	padding: 0 50px;
+	color: black;
+}
+
+.navbar_ .icon_ .icon__ {
+	display: block;
+	text-decoration: none;
+	float: left;
+	margin: 22px;
+	font-family: 'Inconsolata', monospace;
+	margin-right: 45px;
+	color: black;
+}
+
+.navbar_ .menu_ a{
+	display: block;
+	float: left;
+    text-decoration: none;
+	color: black;
+	padding: 20px;
+	transition: .2s;
+}
+
+.navbar_ .menu_ a:hover {
+	border-bottom: 4px solid black;
+}
+.navbar_ .menu_ #picture__ {
+	border-bottom: 4px solid black;
+}
+
+.navbar_ .user_ a {
+	display: block;
+	text-decoration: none;
+	float: right;
+	padding: 20px;
+	transition: .2s;
+	color: black;
+}
+
+.navbar_ .user_ a:hover {
+	border-bottom: 4px solid black;
+}
+
+
+/* img design :)) */
+
+.row_ {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column_ {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column_ img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column_ {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column_ {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#toggle {
+	display: none;
+}
