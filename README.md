@@ -11,4 +11,4 @@ yt: @nguyen7749official <br>
 gh: @nguyenxinhtrai <br>
 
 ấn vô đây để vô trang chính :V
-<a href="https://nguyenxinhtrai.github.io/ntastudio/"></a>
+<a href="https://nguyenxinhtrai.github.io/ntastudio/ntastudio/"></a>
