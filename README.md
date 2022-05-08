@@ -1,11 +1,11 @@
 # ntastudio
 ntastudio f-e
 
-ntastudio code by nguyenxinhtrai
-do not reup
+ntastudio code by nguyenxinhtrai <br>
+do not reup<br>
 
 social media:
-fb: @taanhnguyendz
-ig: @taanhnguyendz
-yt: @nguyen7749official
-gh: @nguyenxinhtrai
+fb: @taanhnguyendz <br>
+ig: @taanhnguyendz <br>
+yt: @nguyen7749official <br>
+gh: @nguyenxinhtrai <br>
